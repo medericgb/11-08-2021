@@ -16,3 +16,14 @@ def parse_csv(file_path)
 end
 
 p parse_csv("process.csv")
+
+=begin
+{
+  header: [header1, header2, header3],
+  data: [
+    { key1: 'value', key2: 'value', key3: 'value'}
+    { key1: 'value', key2: 'value', key3: 'value'}
+    { key1: 'value', key2: 'value', key3: 'value'}
+  ]
+}
+=end
